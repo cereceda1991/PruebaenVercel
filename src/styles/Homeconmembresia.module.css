@@ -1,0 +1,168 @@
+.container__main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Sora', sans-serif;
+    padding: 0px 96px 0 202px;
+    background-color: #212121;
+}
+
+.container__sideBar {
+    position: fixed;
+    left: -1px;
+    z-index: 50;
+}
+
+.container__main header {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 55.5px 0px;
+}
+
+.container__main header form {
+    position: relative;
+    height: 100%;
+}
+
+.container__main header input {
+    width: 399px;
+    height: 48px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 0 52px;
+    font-family: inherit;
+}
+
+.container__main header button {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    font-size: 24px;
+    color: #989898;
+    background-color: transparent;
+    border: none;
+}
+
+.body_section {
+    display: flex;
+    gap: 115px;
+    padding-bottom: 2rem;
+}
+
+.body_section img {
+    display: block;
+    width: 100%;
+}
+
+.body_section h3 {
+    margin: 34px 0px 12px 0px;
+}
+
+.slider_news {
+    display: flex;
+    gap: 12px;
+}
+
+.slider_resources {
+    gap: 12px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.container_CardPlans {
+    padding-top: 64px;
+}
+
+.container__sideBarmobile {
+    display: none;
+}
+
+.section_premium {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 88px;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .container__sideBarmobile {
+        display: block;
+        z-index: 99;
+    }
+
+    .container__sideBar {
+        display: none;
+    }
+
+    .container__main {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container__main header {
+        display: flex;
+        flex-wrap: wrap;
+        position: fixed;
+        gap: 10px;
+        z-index: 2;
+        flex-direction: column;
+        padding: 24px 16px 24px 55px;
+        background-color: #212121;
+    }
+
+    .container__main header input {
+        width: 100%;
+        padding: 0 50px;
+    }
+
+    .container__main header button {
+        font-size: 25px;
+    }
+
+    .container__mobile {
+        padding-top: 170px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body_section {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .body_section h3 {
+        margin: 0px 0 8px;
+        font-size: 23px;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    .slider_news {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        gap: 16px;
+        padding: 24px 16px 24px 16px;
+    }
+
+    .slider_resources {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 24px;
+        padding: 24px 16px 24px 16px;
+    }
+
+    .section_premium {
+        display: flex;
+        margin: 0;
+        justify-content: center;
+    }
+}

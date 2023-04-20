@@ -1,0 +1,262 @@
+.container__mainmyprogress {
+    display: flex;
+    font-family: 'Sora', sans-serif;
+    background-image: url('https://i.ibb.co/bB17TJN/Group-13959.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    gap: 100px;
+    min-height: 100vh;
+}
+
+.container__sideBar {
+    position: fixed;
+}
+
+.container__myprogress {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 42px 203px 10px 201px;
+}
+
+.container__myprogress header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    height: 48px;
+    align-items: center;
+    font-family: inherit;
+}
+
+.container__myprogress header h1 {
+    font-size: 35px;
+}
+
+.container__myprogress header form {
+    position: relative;
+    border-radius: 10px;
+    width: 362px;
+    height: 48px;
+    font-family: inherit;
+}
+
+.container__myprogress header form input {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    font-family: inherit;
+    padding-left: 3rem;
+    outline: none;
+    border: none;
+}
+
+.container__myprogress header form button {
+    position: absolute;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    top: .4rem;
+    left: .5rem;
+    cursor: pointer;
+}
+
+.container___sections {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-family: inherit;
+}
+
+.container__section {
+    display: flex;
+    border-radius: 20px;
+    padding: 46px 64px;
+    height: 128px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #424242;
+    color: black;
+}
+
+.container__section.collapsed {
+    border: 2px solid #D39245;
+    color: #fff;
+}
+
+.cardCourse__Count {
+    display: flex;
+    gap: 12px;
+}
+
+.container__myprogress section button {
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+}
+
+.container__course {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    justify-content: center;
+    margin: 24px 107px 0px 107px;
+}
+
+.container__sideBarmobile {
+    display: none;
+}
+
+.container_classes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 68px;
+}
+
+.container_classes div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+}
+
+.container_classes button {
+    cursor: pointer;
+}
+
+.container_class {
+    font-size: 1rem;
+}
+
+.card_class {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card_class h4 {
+    display: flex;
+    padding-left: 12px;
+}
+
+.card_class p {
+    display: flex;
+    gap: .5rem;
+    padding-top: 12px;
+    background-color: green;
+
+}
+
+.subtitle_class {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 23px;
+    padding: 9px 0px 26px 0px;
+}
+
+.subtitle_class h1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 26px;
+    margin: auto;
+    right: 0;
+    background-color: #989898;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.line_Heigth {
+    background-color: rgba(153, 153, 153, 0.3);
+    height: 2px;
+    border: none;
+}
+
+
+.classes_content {
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+}
+
+.button_BiHappy {
+    padding: 5px;
+    border-radius: 10px;
+    color: #BE843E;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .container__sideBarmobile {
+        display: block;
+        position: absolute;
+        z-index: 100;
+    }
+
+    .container__myprogress {
+        display: flex;
+        margin: 0;
+    }
+
+
+    .container__myprogress header {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        padding: 59px 25px;
+        height: 180px;
+        background-image: url('https://i.ibb.co/16Mvp6Z/fondo.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .container__myprogress header form {
+        width: 100%;
+    }
+
+    .container__myprogress header h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .container__myprogress header form input {
+        padding-left: 2.5rem;
+        height: 40px;
+    }
+
+    .container__myprogress header form button {
+        font-size: 1.5rem;
+
+    }
+
+
+    .container___sections {
+        margin: 196px 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container__section {
+        padding: 10px;
+        height: 82px;
+        border-radius: 10px;
+    }
+
+    .container__course {
+        margin: 24px 16px;
+    }
+
+    .container__sideBar {
+        display: none;
+        z-index: 2;
+    }
+}

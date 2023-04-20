@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400&display=swap");
+
+.main {
+  font-family: "Sora", sans-serif;
+  background-color: #212121;
+  width: 66vw;
+  /* height: 98vh; */
+  padding-inline: 100px;
+  padding-block: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 821px;
+}
+
+.main hr {
+  background: #424242;
+  border: none;
+  height: 1px;
+  width: -webkit-fill-available;
+  margin-block: 10px;
+}
+
+.main img {
+  height: 40px;
+  width: 154px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mid {
+  display: flex;
+  flex-direction: column;
+}
+
+.mid span {
+  background-color: #ecedf2;
+  color: #989898;
+  border-radius: 8px;
+  height: 73px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 50px;
+  margin-block: 20px;
+}
+
+.mid div div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.middle span {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.middle div {
+  display: flex;
+  flex-direction: column;
+}
+
+.middle div div {
+  display: flex;
+  flex-direction: row;
+}
+
+.middle div div p {
+  margin: 10px;
+}
+
+.middle input:checked {
+  accent-color: #ecedf2;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+}
+
+.bottom button {
+  font-family: "Sora", sans-serif;
+  background-color: #d39245;
+  height: 46px;
+  padding: 20px;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.bottom div div {
+  margin-inline: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom div div p {
+  margin: 10px;
+}
+
+@media screen and (max-width: 620px) {
+  .main {
+    width: 100%;
+    background-color: transparent;
+    justify-content: space-around;
+    padding-inline: 16px;
+    padding-block: 10px;
+  }
+
+  .top {
+    flex-direction: column-reverse;
+    gap: 50px;
+    font-weight: 400px;
+    font-size: 23px;
+  }
+
+  .mid {
+    margin-top: 30px;
+  }
+
+  .mid span {
+    height: 47px;
+    font-size: 13px;
+    padding-left: 30px;
+  }
+}

@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600&display=swap");
+
+.background {
+  background-color: #212121;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  min-width: 100vw;
+  display: flex;
+  font-family: "Sora", sans-serif;
+}
+
+.info {
+  margin-top: 48px;
+  margin-inline: 100px;
+  width: 100%;
+}
+
+.title {
+  font-size: 32px;
+  color: #ffffff;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+.alluserdata {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 41px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 32px;
+  background: #2d2d2d;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.userdetails {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.imagebox {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.shortdescription p {
+  margin: 4px 0;
+}
+
+.userName {
+  font-weight: 400;
+  font-size: 23px;
+}
+
+.container {
+  display: flex;
+  gap: 150px;
+  margin-top: 32px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.label {
+  font-size: 14px;
+  color: #989898;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.payment {
+  display: flex;
+  gap: 100px;
+  margin-top: 24px;
+}
+
+.deletebutton {
+  border: none;
+  background: none;
+  color: #eb554e;
+  font-size: 23px;
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+.editbutton {
+  border: none;
+  background: none;
+  text-decoration: underline;
+  font-size: 18px;
+  font-weight: 400;
+}

@@ -1,0 +1,37 @@
+.mainsection {
+  background-color: #ecedf2;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  padding: 60px 40px;
+  gap: 60px;
+  font-family: "Sora", sans-serif;
+}
+
+.titlescontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.maintitle {
+  color: #000;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+}
+
+.subtitle {
+  color: #000;
+  font-size: 23px;
+  line-height: 29px;
+  text-align: center;
+  max-width: 660px;
+}
+
+.cardscontainer {
+  display: flex;
+  justify-content: space-around;
+  gap: 62px;
+}

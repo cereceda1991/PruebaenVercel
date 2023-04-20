@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400&display=swap');
+
+.nav {
+  height: 97vh;
+  font-family: 'Sora', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #343434;
+  width: fit-content;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  float: left;
+}
+
+.nav div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav div p {
+  color: #989898;
+}
+
+.nav hr {
+  background: #424242;
+  border: none;
+  height: 1px;
+  width: -webkit-fill-available;
+  margin: 10px;
+}
+
+.nav div button {
+  background-color: transparent;
+  border: 0px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.button_2 {
+  color: #D39245;
+  margin-bottom: 20px;
+}
+
+.nav div button:hover {
+  background-color: #D39245;
+  color: #ECEDF2;
+}
+
+.nav img {
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/*--------------------------------------------------------------*/
+
+.nav_2 {
+  height: 97vh;
+  font-family: 'Sora', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #343434;
+  width: fit-content;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  float: left;
+}
+
+.nav_2 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: -webkit-fill-available;
+}
+
+.nav_2 div div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav_2 div div img {
+  margin: 10px;
+}
+
+.nav_2 p {
+  color: #989898;
+}
+
+.nav_2 hr {
+  background: #424242;
+  border: none;
+  height: 1px;
+  width: -webkit-fill-available;
+  margin: 10px;
+}
+
+.nav_2 button {
+  font-family: 'Sora', sans-serif;
+  display: flex;
+  align-items: center;
+  width: -webkit-fill-available;
+  background-color: transparent;
+  border: 0px;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: medium;
+}
+
+.nav_2 button p {
+  margin-left: 15px;
+  color: #ECEDF2;
+}
+
+.nav_2 button a {
+  display: flex;
+  align-items: center;
+}
+
+.nav_2 section {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav_2 section div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav_2 section div div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.nav_2 section div div p {
+  color: #ECEDF2;
+}
+
+.button_3 {
+  color: #D39245;
+  display: flex;
+  justify-content: center;
+}
+
+.nav_2 button:hover {
+  background-color: #D39245;
+  color: #ECEDF2;
+}
+
+.nav_2 section div img {
+  padding: 15px;
+  border-radius: 8px;
+}

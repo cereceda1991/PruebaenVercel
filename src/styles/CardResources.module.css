@@ -1,0 +1,25 @@
+.container__CardResources {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Sora', sans-serif;
+    background-color: #424242;
+    border-radius: 0px 0px 10px 10px;
+    overflow: hidden;
+}
+
+.container__CardResources h5 {
+    display: block;
+    margin: 16px 19px 0px 16px;
+    color: #ECEDF2;
+    font-size: 16px;
+}
+
+
+.container__CardResources p {
+    display: block;
+    margin: 13px 16px 20px 16px;
+    color: #ECEDF2;
+    font-size: 13px;
+
+}

@@ -1,0 +1,84 @@
+.container_ModalStartNow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    z-index: 1000;
+}
+
+.container_ModalStartNow form {
+    position: relative;
+    padding: 24px;
+    width: 369px;
+    height: 506px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #fff;
+    text-align: center;
+    gap: 14px;
+    font-size: 13px;
+    z-index: 500;
+}
+
+.container_ModalStartNow img {
+    display: flex;
+    margin: auto;
+}
+
+.container_ModalStartNow div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background-color: black;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.container_ModalStartNow form button {
+    width: 321px;
+    height: 46px;
+    padding: 14px, 24px, 14px, 24px;
+    border-radius: 10px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.button_start {
+    margin-top: 26px;
+    background-color: #D39245;
+
+    border: none;
+}
+
+.button_start:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.button_later {
+    margin: 8px 0px 36px 0px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.button_later:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

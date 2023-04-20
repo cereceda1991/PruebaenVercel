@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400&display=swap');
+
+.all {
+  background-color: #ecedf2;
+}
+
+.div {
+  font-family: 'Sora', sans-serif !important;
+  background-color: #212121 !important;
+  color: #ecedf2;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

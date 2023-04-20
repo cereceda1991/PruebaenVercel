@@ -1,0 +1,11 @@
+.container__CardNews {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Sora', sans-serif;
+    gap: 12px;
+}
+
+.container__CardNews h5 {
+    display: block;
+}

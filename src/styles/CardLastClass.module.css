@@ -1,0 +1,65 @@
+.Card__LastClass {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 252px;
+    border-radius: 20px;
+    background-color: #212121;
+    border: 3px solid #424242;
+    padding: 32px 25px;
+}
+
+.header_class {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header_class h1 {
+    display: flex;
+    color: #878787;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.videoframe {
+    border-radius: 10px;
+}
+
+.splitLine {
+    border-radius: 20px;
+    width: 100%;
+    background: rgb(209, 145, 68);
+    background: linear-gradient(90deg, rgba(209, 145, 68, 1) 80%, rgba(255, 255, 255, 1) 80%);
+    height: 6px;
+    border: none;
+}
+
+.continueClass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.continueClass button {
+    font-family: inherit;
+    display: flex;
+    color: #D19144;
+    background-color: transparent;
+    border: none;
+    gap: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+    align-items: center;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 767px) {
+    .Card__LastClass {
+        margin: auto;
+    }
+
+}

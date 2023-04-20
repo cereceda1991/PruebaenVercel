@@ -1,0 +1,14 @@
+.div {
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  width: auto;
+  cursor: pointer;
+}
+
+.input {
+  position: relative;
+  visibility: hidden !important;
+}

@@ -1,0 +1,51 @@
+.Card__AchievementRecord {
+    width: 400px;
+    height: 252px;
+    border-radius: 20px;
+    background-color: #212121;
+    border: 3px solid #424242;
+    align-items: center;
+    padding: 24px;
+}
+
+.header_awards {
+    display: flex;
+    margin: 40px 24px 24px 24px;
+    gap: 67px;
+    justify-content: space-between;
+}
+
+.header_awards button {
+    background-color: transparent;
+    border: none;
+    font-family: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Card__AchievementRecord img {
+    width: 74px;
+}
+
+.splitLine {
+    background-color: #424242;
+    border: none;
+    height: 1.5px;
+}
+
+.container_awards {
+    display: flex;
+    gap: 24px;
+    margin: 24px 24px 40px 24px;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+@media only screen and (max-width: 767px) {
+    .Card__AchievementRecord {
+        margin: auto;
+    }
+
+}

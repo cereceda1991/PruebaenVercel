@@ -1,0 +1,28 @@
+.all {
+  background-image: url("../assets/Background.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 821px;
+  display: flex;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  margin: 0;
+}
+
+@media screen and (max-width: 620px) {
+  .all {
+    flex-direction: column;
+  }
+
+  .right {
+    padding: 0px;
+    margin: auto;
+  }
+}

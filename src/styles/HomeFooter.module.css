@@ -1,0 +1,101 @@
+/* Estilos para pantalla grande */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: 'Sora', sans-serif;
+    line-height: 2rem;
+    background-color: #212121;
+    padding: 51px 96px 18.38px 93px;
+    justify-content: center;
+}
+
+.container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 36px;
+}
+
+.container div nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 37px;
+    box-sizing: border-box;
+}
+
+.container ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+}
+
+.logo_verbify {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0rem;
+}
+
+.container div form {
+    width: 395px;
+    height: 40px;
+}
+
+.container div form input {
+    font-family: inherit;
+    height: 100%;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px 0rem 0rem 8px;
+    outline: none;
+    color: #000;
+    padding: 0 1rem;
+}
+
+.container div form button {
+    width: 152px;
+    height: 100%;
+    border-radius: 0px 8px 8px 0px;
+    font-family: inherit;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+
+.suscribe {
+    margin-top: 19px;
+}
+
+.suscribe p {
+    font-size: 32px;
+}
+
+.linea {
+    width: 50%;
+    height: 3px;
+    border: none;
+    margin: 18px 10px;
+    background-color: #D39245;
+}
+
+/* Estilos para tabletas */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 51px 24px 18.38px 24px;
+    }
+
+    .container div {
+        gap: 2rem;
+    }
+
+    .linea {
+        width: 100%;
+        margin: 18px 0;
+    }
+}

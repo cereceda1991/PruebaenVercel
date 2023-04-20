@@ -1,0 +1,27 @@
+.mainsection {
+  background-color: #ecedf2;
+  display: grid;
+  place-content: center;
+  padding: 20px;
+  gap: 60px;
+  color: #000;
+}
+
+.maintitle {
+  color: #000;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+}
+
+.subtitle {
+  color: #000;
+  font-size: 23px;
+  line-height: 29px;
+  text-align: center;
+}
+
+.cardscontainer {
+  display: flex;
+  justify-content: space-around;
+}

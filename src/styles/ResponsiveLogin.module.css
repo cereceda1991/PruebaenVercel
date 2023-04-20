@@ -1,0 +1,149 @@
+.main {
+  background-image: url("../assets/Background.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 821px;
+}
+
+.section {
+  font-family: "Sora", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+.section section {
+  width: 90%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #343434;
+  border-radius: 8px;
+}
+
+.section section section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section section section img {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.section section section p {
+  margin-bottom: 15px;
+  display: flex;
+  /* justify-content: center; */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  font-family: "Sora", sans-serif;
+  color: black;
+  background-color: white;
+  border-radius: 8px;
+  min-height: 43px;
+  padding-left: 10px;
+  border: 0px;
+  margin-block: 8px;
+  width: 100%;
+}
+
+.form div {
+  position: relative;
+}
+
+.form div button {
+  position: absolute;
+  bottom: 12px;
+  right: 40px;
+  background-color: transparent;
+  border: 0px;
+  color: grey;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  margin-block: 10px;
+  margin-inline: 5px;
+}
+
+.button {
+  font-family: "Sora", sans-serif;
+  background-color: #d39245;
+  border-radius: 8px;
+  min-height: 43px;
+  padding-left: 10px;
+  border: 0px;
+  margin-block: 10px;
+  margin-inline: 20px;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.div div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-inline: 10px;
+}
+
+.div div div {
+  flex: 1;
+  height: 1px;
+  background-color: white;
+}
+
+.div div span p {
+  width: 10px;
+  text-align: center;
+}
+
+.div button {
+  font-family: "Sora", sans-serif;
+  color: grey;
+  background-color: white;
+  border-radius: 8px;
+  min-height: 43px;
+  padding-left: 10px;
+  border: 0px;
+  margin-block: 10px;
+  margin-inline: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div button p {
+  margin-inline: 8px;
+}
+
+.p {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link_2 {
+  color: #d39245;
+  margin-left: 10px;
+  margin-block: 12px;
+}
