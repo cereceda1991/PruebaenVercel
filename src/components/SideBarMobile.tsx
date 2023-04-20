@@ -22,24 +22,30 @@ import iconV from "../assets/Icon_verbify.png";
 
 // Importaciones de Next.js
 import Link from "next/link";
-import { LogOutUserAction, logOutUser } from "@/actions/authActions";
+import { logOutUser } from "@/actions/authActions";
+import { useAppDispatch, useAppSelector } from "@/store/hooks";
 function SideBarMobile() {
   const [showMenu, setShowMenu] = useState(false);
-  const dispatch = useDispatch();
   const router = useRouter();
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
 
+  const dispatch = useAppDispatch();
+
   const fetchLogOut = useCallback(() => {
-    dispatch<LogOutUserAction>(logOutUser());
+    dispatch(logOutUser());
   }, [dispatch]);
+
+  const navigate = useRouter();
 
   const handleClickLogOut = () => {
     fetchLogOut();
-    router.push("/");
+    navigate.push("/");
   };
+
+  const { authList } = useAppSelector((rootReducer) => rootReducer.auth);
 
   return (
     <nav className={styles.container_sidebarmobile}>
